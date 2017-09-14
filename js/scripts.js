@@ -14,6 +14,14 @@ var divide = function(number1, number2) {
 return number1 / number2;
 };
 
+var exponent = function(number1, number2){
+return number1**number2;
+};
+
+var percent = function(number1, number2){
+return number1 * number2 / 100;
+}
+
 
 $(document).ready(function() {
   // $("#calcInput").submit(function(event) {
@@ -58,6 +66,12 @@ $(document).ready(function() {
       } else if (operator === "divide") {
         var result = divide(number1, number2);
         $("#output4").prepend("<li>"+result+"</li>");
+      } else if (operator === "exponent"){
+        var result = exponent(number1, number2);
+        $("#output5").prepend("<li>"+result+"</li>");
+      } else if (operator ==="percent"){
+        var result = percent(number1, number2);
+        $("#output6").prepend("<li>"+result+"</li>");
       }
       event.preventDefault();
     });
@@ -67,6 +81,8 @@ $(document).ready(function() {
       $("ul#output2").empty();
       $("ul#output3").empty();
       $("ul#output4").empty();
+      $("ul#output5").empty();
+      $("ul#output6").empty();
     });
   });
 

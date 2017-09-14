@@ -1,11 +1,11 @@
 #output {
   padding:10px;
-  background-color:#a3b2cc
+  background-color:#7293cc
 }
 
 #output2 {
   padding:10px;
-  background-color:#94a9ce
+  background-color:#7293cc
 }
 
 #output3 {
@@ -18,15 +18,25 @@
   background-color:#7293cc
 }
 
+#output5 {
+  padding:10px;
+  background-color:#7293cc
+}
+
+#output6 {
+  padding:10px;
+  background-color:#7293cc
+}
+
 .buttonmargin {
   margin-top:20px;
 }
 
 ul{
   list-style: none;
-  border-bottom: 2px solid black
+  border: 1px solid black
 }
 
-.col-md-3 {
-  width:250px;
+h2 {
+  font-size:15px;
 }
