@@ -1,0 +1,32 @@
+#output {
+  padding:10px;
+  background-color:#a3b2cc
+}
+
+#output2 {
+  padding:10px;
+  background-color:#94a9ce
+}
+
+#output3 {
+  padding:10px;
+  background-color:#7d97c4
+}
+
+#output4 {
+  padding:10px;
+  background-color:#7293cc
+}
+
+.buttonmargin {
+  margin-top:20px;
+}
+
+ul{
+  list-style: none;
+  border-bottom: 2px solid black
+}
+
+.col-md-3 {
+  width:250px;
+}
